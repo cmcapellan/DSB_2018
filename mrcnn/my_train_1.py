@@ -20,11 +20,12 @@ import model as modellib
 from model import log
 
 import numpy as np
-from imgaug import augmenters as iaa
 
+import warnings
 with warnings.catch_warnings():  
     warnings.filterwarnings("ignore",category=FutureWarning)
     import skimage.io 
+    from imgaug import augmenters as iaa
 
 
 #######################################################################################
