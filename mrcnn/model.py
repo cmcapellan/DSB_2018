@@ -17,9 +17,9 @@ import warnings
 from collections import OrderedDict
 import multiprocessing
 import numpy as np
-import skimage.transform
 with warnings.catch_warnings():  
     warnings.filterwarnings("ignore",category=FutureWarning)
+    import skimage.transform
     import tensorflow as tf
     import keras
     import keras.backend as K
