@@ -1,5 +1,5 @@
 #!/bin/bash
-apt-get update && apt-get install -y python3-pip 
+apt-get update && apt-get install -y python3-pip unzip
 pip3 install gpustat kaggle
 git clone https://github.com/cmcapellan/DSB_2018.git
 kaggle competitions download -c data-science-bowl-2018 -p /root
